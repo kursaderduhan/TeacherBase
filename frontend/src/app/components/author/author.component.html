@@ -1,0 +1,22 @@
+<div>
+   <h1>Authors</h1>
+</div>
+
+<table class="table table-striped">
+   <thead>
+      <tr>
+         <th>Email</th>
+         <th>First Name</th>
+         <th>Last Name</th>
+         <th>Biography</th>
+      </tr>
+   </thead>
+   <tbody>
+   <tr *ngFor="let author of authors">
+      <td>{{author.email}}</td>
+      <td>{{author.firstName}}</td>
+      <td>{{author.lastName}}</td>
+      <td>{{author.biography}}</td>
+   </tr>
+</tbody>
+</table>
